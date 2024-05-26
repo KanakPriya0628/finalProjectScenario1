@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="5" passed="1" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-26T09:56:04 IST" name="Default suite" finished-at="2024-05-26T09:56:31 IST" duration-ms="26757">
+  <suite started-at="2024-05-26T10:56:30 IST" name="Default suite" finished-at="2024-05-26T10:57:02 IST" duration-ms="31221">
     <groups>
     </groups>
-    <test started-at="2024-05-26T09:56:04 IST" name="Default test" finished-at="2024-05-26T09:56:31 IST" duration-ms="26757">
+    <test started-at="2024-05-26T10:56:30 IST" name="Default test" finished-at="2024-05-26T10:57:02 IST" duration-ms="31221">
       <class name="OHRMTestCases.ReadData">
-        <test-method is-config="true" signature="pageOpen()[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:04 IST" name="pageOpen" finished-at="2024-05-26T09:56:16 IST" duration-ms="11752" status="PASS">
+        <test-method is-config="true" signature="pageOpen()[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:56:30 IST" name="pageOpen" finished-at="2024-05-26T10:56:46 IST" duration-ms="15722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageOpen -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:16 IST" name="beforeTest" finished-at="2024-05-26T09:56:18 IST" depends-on-methods="OHRMTestCases.BaseClass.pageOpen" duration-ms="1912" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:56:46 IST" name="beforeTest" finished-at="2024-05-26T10:56:48 IST" depends-on-methods="OHRMTestCases.BaseClass.pageOpen" duration-ms="1591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:18 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2024-05-26T09:56:20 IST" duration-ms="1810" status="FAIL">
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:56:48 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2024-05-26T10:56:50 IST" duration-ms="1867" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at OHRMTestCases.ReadData.loginToOHRM(ReadData.java:73)
+at OHRMTestCases.ReadData.loginToOHRM(ReadData.java:48)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -73,7 +73,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:20 IST" name="logout" finished-at="2024-05-26T09:56:20 IST" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:56:50 IST" name="logout" finished-at="2024-05-26T10:56:50 IST" duration-ms="50" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:20 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2024-05-26T09:56:21 IST" duration-ms="1615" status="FAIL">
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:56:50 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2024-05-26T10:56:52 IST" duration-ms="2368" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -109,7 +109,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at OHRMTestCases.ReadData.loginToOHRM(ReadData.java:73)
+at OHRMTestCases.ReadData.loginToOHRM(ReadData.java:48)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -142,7 +142,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:21 IST" name="logout" finished-at="2024-05-26T09:56:21 IST" duration-ms="38" status="PASS">
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:56:52 IST" name="logout" finished-at="2024-05-26T10:56:52 IST" duration-ms="23" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -153,7 +153,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:21 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2024-05-26T09:56:23 IST" duration-ms="1644" status="FAIL">
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:56:52 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2024-05-26T10:56:54 IST" duration-ms="1707" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -178,7 +178,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at OHRMTestCases.ReadData.loginToOHRM(ReadData.java:73)
+at OHRMTestCases.ReadData.loginToOHRM(ReadData.java:48)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -211,7 +211,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:23 IST" name="logout" finished-at="2024-05-26T09:56:23 IST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:56:54 IST" name="logout" finished-at="2024-05-26T10:56:54 IST" duration-ms="25" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -222,7 +222,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:23 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2024-05-26T09:56:25 IST" duration-ms="1729" status="FAIL">
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:56:54 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2024-05-26T10:56:56 IST" duration-ms="1786" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -247,7 +247,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at OHRMTestCases.ReadData.loginToOHRM(ReadData.java:73)
+at OHRMTestCases.ReadData.loginToOHRM(ReadData.java:48)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -280,7 +280,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:25 IST" name="logout" finished-at="2024-05-26T09:56:25 IST" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:56:56 IST" name="logout" finished-at="2024-05-26T10:56:56 IST" duration-ms="25" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -291,7 +291,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:25 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2024-05-26T09:56:27 IST" duration-ms="2054" status="PASS">
+        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:56:56 IST" name="loginToOHRM" data-provider="getLoginDetails" finished-at="2024-05-26T10:56:58 IST" duration-ms="2633" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -307,7 +307,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:27 IST" name="logout" finished-at="2024-05-26T09:56:30 IST" duration-ms="2813" status="PASS">
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:56:58 IST" name="logout" finished-at="2024-05-26T10:57:01 IST" duration-ms="2390" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -318,11 +318,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:30 IST" name="afterTest" finished-at="2024-05-26T09:56:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:57:01 IST" name="afterTest" finished-at="2024-05-26T10:57:01 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T09:56:30 IST" name="close" finished-at="2024-05-26T09:56:31 IST" depends-on-methods="OHRMTestCases.ReadData.afterTest" duration-ms="1101" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:OHRMTestCases.ReadData@13c9d689]" started-at="2024-05-26T10:57:01 IST" name="close" finished-at="2024-05-26T10:57:02 IST" depends-on-methods="OHRMTestCases.ReadData.afterTest" duration-ms="869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

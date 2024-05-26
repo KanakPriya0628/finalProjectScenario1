@@ -24,7 +24,7 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 public class ReadData extends BaseClass{
 
 	
-	String fPath = "D:\\SeleniumJarFiles\\ExcelFiles\\MyFirstExcel1.xlsx";
+	String fPath = "D:\\KanakSeleniumDemos\\scenario1\\ExcelFiles\\MyFirstExcel1.xlsx";
 	File file;
 	FileInputStream fis;
 	XSSFWorkbook wb;
@@ -35,31 +35,7 @@ public class ReadData extends BaseClass{
 	String expUrl="https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",actUrl;
 
 
-//	@Test
-//	public void readFromExcel() {
-//		int rows = sheet.getPhysicalNumberOfRows();
-//		// int cells = sheet.getRow(0).getPhysicalNumberOfCells();
-//
-//		System.out.println(rows);
-//		// System.out.println(cells);
-//
-//		for (int i = 0; i < rows; i++) {
-//			row = sheet.getRow(i); // it giving us rows
-//			int cells = row.getPhysicalNumberOfCells(); // giving us cells how many cells in row
-//			System.out.println("cells "+cells);
-//
-//			for (int j = 0; j < cells; j++) {
-//				cell = row.getCell(j);
-//				System.out.println("cell value "+cell.getStringCellValue());
-//			}
-//			System.out.println("un "+row.getCell(0).getStringCellValue());
-//			System.out.println("ps "+row.getCell(1).getStringCellValue());
-//			String username = row.getCell(0).getStringCellValue();
-//			String password = row.getCell(1).getStringCellValue();
-//			//lg.loginWithData(username,password);
-//		}
-//	}
-	  @Test(dataProvider = "getLoginDetails")
+	@Test(dataProvider = "getLoginDetails")
 	  public void loginToOHRM(String un, String ps) {
 		  
 		  System.out.println("username"+un+"\t"+"password"+ps); 
@@ -67,9 +43,7 @@ public class ReadData extends BaseClass{
 		  driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input")).sendKeys(un);
 		  driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[2]/div/div[2]/input")).sendKeys(ps);
 		  driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")).click();
-		  actUrl = driver.getCurrentUrl();
-		//  Assert.assertTrue(driver.getCurrentUrl().contains("dash"), "Login fail because of invalid data");
-			
+		  actUrl = driver.getCurrentUrl();			
 		  Assert.assertEquals(actUrl,expUrl);
 	  }
 	  
